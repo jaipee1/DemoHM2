@@ -7,14 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		181C1342209D8BD000017EFB /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181C133D209D8BCF00017EFB /* Networking.swift */; };
+		181C1343209D8BD000017EFB /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181C133E209D8BCF00017EFB /* Result.swift */; };
+		181C1344209D8BD000017EFB /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181C133F209D8BCF00017EFB /* Constant.swift */; };
+		181C1345209D8BD000017EFB /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181C1340209D8BCF00017EFB /* Error.swift */; };
+		181C1346209D8BD000017EFB /* APIConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181C1341209D8BD000017EFB /* APIConstant.swift */; };
+		181C1349209D8C1800017EFB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181C1348209D8C1800017EFB /* LoginViewController.swift */; };
 		20EB5E162012BCF100A34042 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EB5E152012BCF100A34042 /* AppDelegate.swift */; };
 		20EB5E182012BCF100A34042 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EB5E172012BCF100A34042 /* ViewController.swift */; };
 		20EB5E1B2012BCF100A34042 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20EB5E192012BCF100A34042 /* Main.storyboard */; };
 		20EB5E1D2012BCF100A34042 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20EB5E1C2012BCF100A34042 /* Assets.xcassets */; };
 		20EB5E202012BCF100A34042 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20EB5E1E2012BCF100A34042 /* LaunchScreen.storyboard */; };
+		20EB5E2A2012BD4B00A34042 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EB5E292012BD4B00A34042 /* Helpers.swift */; };
+		20EB5E2C2012BD7400A34042 /* OperationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EB5E2B2012BD7400A34042 /* OperationManager.swift */; };
+		20EB5E2E2012BE1700A34042 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EB5E2D2012BE1700A34042 /* LocationManager.swift */; };
+		20EB5E302012BE4C00A34042 /* BatteryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EB5E2F2012BE4C00A34042 /* BatteryManager.swift */; };
+		20EB5E322012BE7500A34042 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EB5E312012BE7500A34042 /* DataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		181C133D209D8BCF00017EFB /* Networking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		181C133E209D8BCF00017EFB /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		181C133F209D8BCF00017EFB /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		181C1340209D8BCF00017EFB /* Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		181C1341209D8BD000017EFB /* APIConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIConstant.swift; sourceTree = "<group>"; };
+		181C1348209D8C1800017EFB /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		20EB5E122012BCF100A34042 /* ThreadingDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThreadingDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20EB5E152012BCF100A34042 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		20EB5E172012BCF100A34042 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +39,11 @@
 		20EB5E1C2012BCF100A34042 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20EB5E1F2012BCF100A34042 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		20EB5E212012BCF100A34042 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20EB5E292012BD4B00A34042 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		20EB5E2B2012BD7400A34042 /* OperationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationManager.swift; sourceTree = "<group>"; };
+		20EB5E2D2012BE1700A34042 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		20EB5E2F2012BE4C00A34042 /* BatteryManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatteryManager.swift; sourceTree = "<group>"; };
+		20EB5E312012BE7500A34042 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +57,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		181C1347209D8BDC00017EFB /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
 		20EB5E092012BCF100A34042 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +85,18 @@
 			children = (
 				20EB5E152012BCF100A34042 /* AppDelegate.swift */,
 				20EB5E172012BCF100A34042 /* ViewController.swift */,
+				20EB5E292012BD4B00A34042 /* Helpers.swift */,
+				20EB5E2B2012BD7400A34042 /* OperationManager.swift */,
+				20EB5E2D2012BE1700A34042 /* LocationManager.swift */,
+				20EB5E2F2012BE4C00A34042 /* BatteryManager.swift */,
+				20EB5E312012BE7500A34042 /* DataManager.swift */,
+				181C1341209D8BD000017EFB /* APIConstant.swift */,
+				181C133F209D8BCF00017EFB /* Constant.swift */,
+				181C1347209D8BDC00017EFB /* Networking */,
+				181C1348209D8C1800017EFB /* LoginViewController.swift */,
+				181C1340209D8BCF00017EFB /* Error.swift */,
+				181C133D209D8BCF00017EFB /* Networking.swift */,
+				181C133E209D8BCF00017EFB /* Result.swift */,
 				20EB5E192012BCF100A34042 /* Main.storyboard */,
 				20EB5E1C2012BCF100A34042 /* Assets.xcassets */,
 				20EB5E1E2012BCF100A34042 /* LaunchScreen.storyboard */,
@@ -136,7 +177,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				181C1343209D8BD000017EFB /* Result.swift in Sources */,
 				20EB5E182012BCF100A34042 /* ViewController.swift in Sources */,
+				20EB5E302012BE4C00A34042 /* BatteryManager.swift in Sources */,
+				181C1345209D8BD000017EFB /* Error.swift in Sources */,
+				20EB5E2C2012BD7400A34042 /* OperationManager.swift in Sources */,
+				181C1342209D8BD000017EFB /* Networking.swift in Sources */,
+				20EB5E322012BE7500A34042 /* DataManager.swift in Sources */,
+				20EB5E2E2012BE1700A34042 /* LocationManager.swift in Sources */,
+				181C1346209D8BD000017EFB /* APIConstant.swift in Sources */,
+				181C1344209D8BD000017EFB /* Constant.swift in Sources */,
+				20EB5E2A2012BD4B00A34042 /* Helpers.swift in Sources */,
+				181C1349209D8C1800017EFB /* LoginViewController.swift in Sources */,
 				20EB5E162012BCF100A34042 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

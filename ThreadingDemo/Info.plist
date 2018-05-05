@@ -41,5 +41,9 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSLocationUsageDescription</key>
+	<string>Please, allow us to use GPS, enabling this app to send your current location to our all mighty database. We promise not to share your location data with others.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Please, allow us to use GPS, enabling this app to send your current location to our all mighty database. We promise not to share your location data with others.</string>
 </dict>
 </plist>
